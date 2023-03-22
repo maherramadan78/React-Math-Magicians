@@ -8,31 +8,30 @@ const Calculator = () => (
 
       <div className="buttons">
 
-        <button className="delete delet">AC</button>
-        <button className="delete clear">+/-</button>
-        <button className="percentage">%</button>
-        <button className="number seven">7</button>
-        <button className="number eigth">8</button>
-        <button className="number nine">9</button>
-        <button className="number four">4</button>
-        <button className="number five">5</button>
-        <button className="number six">6</button>
-        <button className="number one">1</button>
-        <button className="number two">2</button>
-        <button className="number three">3</button>
-        <button className="number zero">0</button>
-        <button className="number dot">.</button>
+        <button type="button" className="delete delt">AC</button>
+        <button type="button" className="delete clear">+/-</button>
+        <button type="button" className="percentage">%</button>
+        <button type="button" className="number seven">7</button>
+        <button type="button" className="number eigth">8</button>
+        <button type="button" className="number nine">9</button>
+        <button type="button" className="number four">4</button>
+        <button type="button" className="number five">5</button>
+        <button type="button" className="number six">6</button>
+        <button type="button" className="number one">1</button>
+        <button type="button" className="number two">2</button>
+        <button type="button" className="number three">3</button>
+        <button type="button" className="number zero">0</button>
+        <button type="button" className="number dot">.</button>
       </div>
       <div className="operations">
-        <button className="ope divide">÷</button>
-        <button className="ope por">x</button>
-        <button className="ope minus">-</button>
-        <button className="ope sum">+</button>
-        <button className="equal">=</button>
+        <button type="button" className="ope divide">÷</button>
+        <button type="button" className="ope por">x</button>
+        <button type="button" className="ope minus">-</button>
+        <button type="button" className="ope sum">+</button>
+        <button type="button" className="equal">=</button>
       </div>
 
     </div>
   </div>
 );
-
 export default Calculator;
