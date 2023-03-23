@@ -23,5 +23,11 @@
   "ignorePatterns": [
     "dist/",
     "build/"
-  ]
+  ],
+
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
