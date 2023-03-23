@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import Btn from './btn';
 
-// eslint-disable-next-line import/extensions
-import Output from './Output.js';
+import Output from './Output';
 
 function Calculator() {
   const btnValues = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
