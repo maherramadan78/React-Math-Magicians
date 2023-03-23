@@ -1,54 +1,67 @@
-.calculatrice {
-  margin-top: 100px;
-  margin-left: 100px;
-  width: 400px;
+.calculator-holder {
   display: flex;
-  flex-direction: column;
-  background-color: rgb(143, 142, 142);
-  color: white;
-  border: 2px solid orange;
 }
 
-.display-screen {
-  height: 100px;
-  display: flex;
-  font-size: 30px;
-  width: 396px;
-  justify-content: end;
-  color: white;
-  align-items: flex-end;
-  background-color: rgb(143, 142, 142);
-  border: none;
-  text-align: end;
+.calculator {
+  width: 60%;
+  max-width: 350px;
+  height: 280px;
+  margin: 60px auto;
 }
 
-.all-buttons {
-  display: flex;
-  flex-direction: row;
-}
-
-.buttons {
+.calculator-btn {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  height: 85%;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
 }
 
-.operations {
+.result {
+  background-color: #858693;
+  color: #fff;
+  height: 15%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.btn-div {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.double {
+  grid-column: 1/3;
+}
+
+.gray {
+  background-color: #e0e0e0;
+}
+
+.orange {
+  background-color: #f5913e;
+}
+
+.quote-div {
+  width: 40%;
+  padding: 50px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.ope {
-  background-color: rgba(250, 132, 22, 0.86);
-}
-
-button {
-  width: 100px;
-  height: 70px;
-  border: 0.5px solid grey;
-}
-
-.zero {
-  grid-column: 1/3;
-  width: 200px;
+.quote-btn {
+  width: 50%;
+  height: 30px;
 }

@@ -14,6 +14,9 @@
   },
   "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
   "plugins": ["react"],
+  "settings": {
+    "import/extensions": [".js", ".mjs", ".jsx", ".js", ".jsx", ".ts", ".tsx"]
+  },
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
@@ -24,4 +27,5 @@
     "dist/",
     "build/"
   ]
+  
 }

@@ -1,9 +1,14 @@
-import Calculator from './components/Calculator';
 import './App.css';
+import Calculator from './components/Calculator';
+import ApiCall from './components/ApiCalls';
 
-const App = () => (
-  <div className="calcu">
-    <Calculator />
-  </div>
-);
+function App() {
+  return (
+    <div className="calculator-holder">
+      <Calculator />
+      <ApiCall />
+    </div>
+  );
+}
+
 export default App;
