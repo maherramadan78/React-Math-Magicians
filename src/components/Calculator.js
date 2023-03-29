@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Btn from './btn';
-
 import Output from './Output';
 
 function Calculator() {
