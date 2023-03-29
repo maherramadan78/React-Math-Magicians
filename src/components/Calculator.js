@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Btn from './btn';
-import Output from './output';
+import Output from './Output';
 
 function Calculator() {
   const btnValues = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
