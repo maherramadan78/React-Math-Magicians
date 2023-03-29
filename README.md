@@ -9,7 +9,7 @@
 
 </div>
 
- # 📖 [Math Magicians] 
+ 
  
  
  
@@ -39,7 +39,7 @@
 - [📝 License](#license)
 </div>
 
-
+# 📖 [Math Magicians] 
 
 <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
