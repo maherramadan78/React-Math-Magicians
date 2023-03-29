@@ -10,9 +10,6 @@
 </div>
 
 
- 
- 
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -38,7 +35,7 @@
 - [📝 License](#license)
 </div>
 
-
+# 📖 [Math Magicians] 
 
  # 📖 [Math Magicians] 
  
