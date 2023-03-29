@@ -9,8 +9,7 @@
 
 </div>
 
- # 📖 [Math Magicians] 
- 
+
  
  
 
@@ -40,6 +39,9 @@
 </div>
 
 
+
+ # 📖 [Math Magicians] 
+ 
 
 <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
