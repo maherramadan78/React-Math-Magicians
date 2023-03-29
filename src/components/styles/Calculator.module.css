@@ -6,6 +6,7 @@
 
 .calculatorDiv > h2 {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
+  margin-left: 30px;
   width: 40%;
 }
