@@ -9,12 +9,6 @@
 
 </div>
 
- # 📖 [Math Magicians] 
- 
- 
- <a name="about-project"></a>
-<!-- PROJECT DESCRIPTION -->
-**[Math Magicians]** is a website built with React that renders a calculator where the user can make simple math operations. It is part of the 3rd module: React of the Microverse programm curriculum. In this part of the project I have done the React setup
 
 <!-- TABLE OF CONTENTS -->
 
@@ -40,6 +34,18 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 </div>
+
+# 📖 [Math Magicians] 
+
+ # 📖 [Math Magicians] 
+ 
+
+<a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
+**[Math Magicians]** is a website built with React that renders a calculator where the user can make simple math operations. It is part of the 3rd module: React of the Microverse programm curriculum. In this part of the project I have done the React setup
+
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
