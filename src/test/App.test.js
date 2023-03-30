@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Calculator from '../components/calculator';
+import Calculator from '../components/Calculator';
 
 describe('It renders the numbers', () => {
   test('it renders 0', () => {
