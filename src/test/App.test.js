@@ -52,7 +52,9 @@ describe('When a button is pressed, it should show the value on the screen', () 
     render(<Calculator />);
     fireEvent.click(screen.getByText('2'));
     fireEvent.click(screen.getByText('3'));
-    expect(document.querySelector('.result').textContent).toBe('23');
+    expect(document.querySelector('.result').textContent).toMatchInlineSnapshot(
+      '"23"',
+    );
   });
   test('should display 333', () => {
     render(<Calculator />);
@@ -60,7 +62,9 @@ describe('When a button is pressed, it should show the value on the screen', () 
     fireEvent.click(button);
     fireEvent.click(button);
     fireEvent.click(button);
-    expect(document.querySelector('.result').textContent).toBe('333');
+    expect(document.querySelector('.result').textContent).toMatchInlineSnapshot(
+      '"333"',
+    );
   });
   test('should display 15', () => {
     render(<Calculator />);
@@ -68,6 +72,8 @@ describe('When a button is pressed, it should show the value on the screen', () 
     fireEvent.click(screen.getByText('x'));
     fireEvent.click(screen.getByText('5'));
     fireEvent.click(screen.getByText('='));
-    expect(document.querySelector('.result').textContent).toBe('15');
+    expect(document.querySelector('.result').textContent).toMatchInlineSnapshot(
+      '"15"',
+    );
   });
 });
