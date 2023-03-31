@@ -35,7 +35,9 @@ function ApiCall() {
     return (
       <div className="quote-div">
         Upps, ¡Something went wrong! try pressing refresh button.
-        <button className="quote-btn" type="button" onClick={changeQuote}>Refresh</button>
+        <button className="quote-btn" type="button" onClick={changeQuote}>
+          Refresh
+        </button>
       </div>
     );
   }
@@ -47,7 +49,9 @@ function ApiCall() {
         {dataFromApi[0].quote}
         &quot;
       </span>
-      <button className="quote-btn" type="button" onClick={changeQuote}>Change quote</button>
+      <button className="quote-btn" type="button" onClick={changeQuote}>
+        Change quote
+      </button>
     </div>
   );
 }

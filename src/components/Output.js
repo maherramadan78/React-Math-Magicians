@@ -21,8 +21,8 @@ function Output({ totalObj, value }) {
     return obj.total;
   };
   return (
-    <div className="result">
-      <span>{ toShow(totalObj) }</span>
+    <div data-testid="output" className="result">
+      <span>{toShow(totalObj)}</span>
     </div>
   );
 }
