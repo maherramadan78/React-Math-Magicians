@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom';
 import NavBar from './NavBar';
 
 const Layout = () => (
-  <div className="wrapper">
+  <div data-testid="wrapper" className="wrapper">
     <NavBar />
     <Outlet />
   </div>
